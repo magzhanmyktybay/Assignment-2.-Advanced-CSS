@@ -5,57 +5,92 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="navbar">
-    <a href="#" class="navbar-logo">Magzhan<span class="logo-dot">.</span>dev</a>
+  <div id="task2" class="page-layout">
 
-    <nav>
-      <ul class="navbar-links">
-        <li><a href="#task1">Cards</a></li>
-        <li><a href="#task2">Layout</a></li>
-        <li><a href="#task3">Gallery</a></li>
-        <li><a href="#task4">Portfolio</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="navbar">
+      <a href="#" class="navbar-logo">Magzhan<span class="logo-dot">.</span>dev</a>
 
-  <main class="main-page">
+      <nav>
+        <ul class="navbar-links">
+          <li><a href="#cards">Cards</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section id="task1" class="task-section">
-      <h2 class="section-title">What I'm learning</h2>
-
-      <div class="card-row">
-
-        <div class="card">
-          <img src="https://imgs.search.brave.com/irt7vI2-Fnx_aWanNd2QlzZdVTT4enMrCx72SxM1w74/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vamF2YS1wcm9n/cmFtbWluZy1jb2Rl/LWFic3RyYWN0LXRl/Y2hub2xvZ3ktYmFj/a2dyb3VuZF8yNzIz/MDYtMTQ5LmpwZz9n/YT1HQTEuMS4xNDQx/OTYxMzY1LjE3OTA0/NDY4NzEmc2VtdD1h/aXNfaHlicmlkJnc9/NzQwJnE9ODA" alt="Laptop with code">
-          <div class="card-content">
-            <h3>Java Basics</h3>
-            <p>Classes, loops and arrays. The main language of my university courses.</p>
-            <button class="card-button">Learn more</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://imgs.search.brave.com/VgodO1gRkQlMnpP_Kg7PDNut6-i6rogxh4lSQL4zTwc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L2ZyZWUtdmVjdG9y/L3ZpZGVvZ2FtZXMt/YmFja2dyb3VuZC1k/ZXNpZ25fMTIxMi02/MjUuanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MCZxPTgw" alt="Game controller">
-          <div class="card-content">
-            <h3>Game Design</h3>
-            <p>How levels, rules and player goals work together. I study simple 2D games to understand why some are fun to play and others are not.</p>
-            <button class="card-button">Learn more</button>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://imgs.search.brave.com/zOasdJPSmc3plJd2GQxmNuFiOLDEdFhVwjDKqD3Ou5A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vZnJvbnRlbmQt/YmFja2VuZC1jb2Rp/bmctbGFwdG9wLWRp/c3BsYXlfMTMwMzAz/My0xMzg2Ni5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQwJnE9/ODA" alt="Web page on a screen">
-          <div class="card-content">
-            <h3>Web Frontend</h3>
-            <p>HTML and CSS layouts with Flexbox and Grid.</p>
-            <button class="card-button">Learn more</button>
-          </div>
-        </div>
-
+    <aside class="sidebar">
+      <div class="sidebar-block">
+        <h3>About me</h3>
+        <p>2nd-year student at Astana IT University.</p>
       </div>
-    </section>
 
-  </main>
+      <div class="sidebar-block">
+        <h3>Skills</h3>
+        <ul class="sidebar-list">
+          <li>Java</li>
+          <li>HTML</li>
+          <li>CSS Flexbox &amp; Grid</li>
+        </ul>
+      </div>
 
+      <div class="sidebar-block">
+        <h3>Contact</h3>
+        <ul class="sidebar-list">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main-page">
+
+      <section class="intro">
+        <h1>Hi, I'm Magzhan</h1>
+        <p>I study Java at university and build small web pages to practice layout with Flexbox and Grid. My goal is to make my own games one day, and this site is where I collect what I learn along the way.</p>
+      </section>
+
+      <section id="cards" class="task-section">
+        <h2 class="section-title">What I'm learning</h2>
+
+        <div class="card-row">
+
+          <div class="card">
+            <img src="https://imgs.search.brave.com/irt7vI2-Fnx_aWanNd2QlzZdVTT4enMrCx72SxM1w74/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vamF2YS1wcm9n/cmFtbWluZy1jb2Rl/LWFic3RyYWN0LXRl/Y2hub2xvZ3ktYmFj/a2dyb3VuZF8yNzIz/MDYtMTQ5LmpwZz9n/YT1HQTEuMS4xNDQx/OTYxMzY1LjE3OTA0/NDY4NzEmc2VtdD1h/aXNfaHlicmlkJnc9/NzQwJnE9ODA" alt="Java">
+            <div class="card-content">
+              <h3>Java Basics</h3>
+              <p>Classes, loops and arrays. The main language of my university courses.</p>
+              <button class="card-button">Learn more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://imgs.search.brave.com/RgpB3kcmjpN9dnOehbuz559fHsIPfYlSG4-6voRHxUo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzA3LzYyLzM2/LzM2MF9GXzUwNzYy/MzY0N19CYTVOeVpL/cFNGYjNtN0s5Z0pk/T2ZJV1ppa0dUdnNS/Zy5qcGc" alt="Game design">
+            <div class="card-content">
+              <h3>Game Design</h3>
+              <p>How levels, rules and player goals work together. I study simple 2D games to understand why some are fun to play and others are not.</p>
+              <button class="card-button">Learn more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://imgs.search.brave.com/zOasdJPSmc3plJd2GQxmNuFiOLDEdFhVwjDKqD3Ou5A/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vZnJvbnRlbmQt/YmFja2VuZC1jb2Rp/bmctbGFwdG9wLWRp/c3BsYXlfMTMwMzAz/My0xMzg2Ni5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQwJnE9/ODA" alt="Laptop with code">
+            <div class="card-content">
+              <h3>Web Frontend</h3>
+              <p>HTML and CSS layouts with Flexbox and Grid.</p>
+              <button class="card-button">Learn more</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Magzhan Myktybay</p>
+    </footer>
+
+  </div>
 </body>
 </html>
