@@ -1,4 +1,10 @@
 # Magzhan Myktybay SE-2540
+
+
+## Description
+A single-page personal website built to practice Flexbox and CSS Grid. The whole page is one Grid layout with a header, a sidebar, a main content area and a footer. Each task of the assignment is a part of this page.
+
+
 ## Task 0
 <img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/fb366c53-a799-4d61-89d6-05dbfca89fad" />
 Navigation bar is constructed using Flexbox. Header has a `display: flex` style with `justify-content: space-between`, that places the logo to the left and the navigation elements to the right and `align-items: center`, that makes them aligned vertically in one line. List of the links is a different flex container and `gap: 28px` ensures the same distance between links. Upon hovering over a link, its color and underline change.  
@@ -22,3 +28,9 @@ The “Games that inspire me” section contains 9 pictures of the games, displa
 ## Task 4
 <img width="1638" height="574" alt="image" src="https://github.com/user-attachments/assets/745bf500-618c-4371-b842-c8577661e3d1" />
 Portfolio Page utilizes both Flexbox and Grid Layouts. The header is based on the Flexbox and employs the justify-content: space-between for placing the title on the left side and the GitHub icon on the right side and align-items: center for vertical alignment. The main content area is represented by the CSS Grid with grid-template-columns: 2fr 1fr: the projects occupy the left column while the info occupies the right one. The projects list is arranged in flex-direction: column and the gap. In each project, Flexbox positions the thumbnail next to the text, and flex-shrink: 0 makes the thumbnail non-shrinking. The footer is the final element of the portfolio page.
+
+## Conclusion
+
+In this assignment, I created one website which incorporates Flexbox and CSS Grid together. I realized that Flexbox is effective for one-dimensional layouts where the elements are arranged in either one row or one column such as the navigation bar, card row, the project cards, and the portfolio header. CSS Grid is effective for two-dimensional layouts where both rows and columns are managed simultaneously such as the page layout using grid-template-areas, the image gallery, and the main content of the portfolio.
+
+At the same time, I observed that the two can be used together. The navigation bar acts as a grid item within the page layout while acting as a Flexbox container at the same time, and the gallery caption is aligned through Flexbox within a grid area. Gap property, fr units, and grid-template-areas properties made the layouts more concise to create as compared to margins and fixed widths.
